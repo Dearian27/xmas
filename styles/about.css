@@ -1,0 +1,31 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.about .slide {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.slide.reverse {
+  flex-direction: row-reverse;
+}
+.slide.dark {
+  background-color: #f9eedf;
+}
+.slide .text {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.slide img {
+  width: 600px;
+  height: auto;
+  object-fit: contain;
+}
+.about .text span {
+  font-size: 18px;
+}

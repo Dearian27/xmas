@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Exo+2&family=Montserrat&family=Mountains+of+Christmas:wght@400;700&family=Pacifico&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Pacifico';
+}
+
+.header-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 30px;
+  height: 80px;
+}
+.logo {
+  font-size: 30px;
+  font-weight: 600;
+  color: #D90303;
+}
+.nav {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.nav > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Inter';
+  font-weight: 900;
+  color: #D90303;
+  cursor: pointer !important;
+}
+.nav > a.active {
+  text-decoration: underline;
+}
